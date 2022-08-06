@@ -1,8 +1,44 @@
-.logo_quiz {
+/* .border-header {
+  border: 1px solid white;
+}
+ */
+.logo_holder {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: var(--header-height);
+  padding: 0x 30px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  box-shadow: 4px 1px 5px red;
+}
+.logo-quiz {
+  margin-right: 30px;
+  padding: 10px;
   font-family: "Maven Pro", sans-serif;
+
   color: var(--dark);
 }
-.logo_app {
+.logo-app {
   font-family: "Potta One", cursive;
   color: var(--dark);
+}
+
+@media (min-width: 500px) {
+  .logo_holder {
+    font-size: 1.3rem;
+  }
+  .logo-quiz {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 300px) {
+  .logo_holder {
+    font-size: 0.8rem;
+  }
+  .logo-quiz {
+    margin-right: 15px;
+  }
 }
