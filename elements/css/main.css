@@ -1,9 +1,23 @@
+article {
+  /* s */
+}
+
 .border-main {
   border: 1px solid white;
 }
 .main_holder {
-  background-color: rgb(117, 89, 89);
+  padding: 40px;
+  margin: 20px 40px;
+  border-radius: 0px;
+  /* position: relative; */
 }
-img {
-  width: 80px;
+
+.card {
+}
+
+.bookmark_icon {
+  width: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
