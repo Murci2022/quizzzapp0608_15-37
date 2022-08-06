@@ -7,7 +7,7 @@ article {
 }
 .main_holder {
   padding: 40px;
-  margin: 20px 40px;
+  margin: 20px 15px;
   border-radius: 0px;
   /* position: relative; */
 }
@@ -16,8 +16,8 @@ article {
 }
 
 .bookmark_icon {
-  width: 5rem;
+  width: 3rem;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 85px;
+  left: 15px;
 }
