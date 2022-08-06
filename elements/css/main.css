@@ -1,0 +1,54 @@
+article {
+  /* s */
+}
+
+.border-main {
+  border: 1px solid white;
+}
+.main_holder {
+  padding: 0px;
+  margin: 20px 15px;
+  border-radius: 0px;
+  /* position: relative; */
+}
+.question_holder {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.question {
+  text-align: ;
+}
+
+.bookmark_icon {
+  width: 3rem;
+  position: absolute;
+  top: 0px;
+  left: 0spx;
+}
+
+.show {
+  border-radius: 50%;
+  padding: 15px 30px;
+  position: absolute;
+  bottom: 12px;
+}
+.answer_holder {
+  list-style: none;
+  margin: 20px 0;
+}
+.answer {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--borderline);
+}
+.article_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kanji_horse {
+  width: 10rem;
+  margin-top: 10px;
+}

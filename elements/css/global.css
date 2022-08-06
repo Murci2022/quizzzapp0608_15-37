@@ -1,4 +1,6 @@
 /*----------- FONTS----------------------------- */
+/* MAIN FONT */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
 /* font-family: 'Potta One', cursive;  */
@@ -23,15 +25,21 @@
   --medium: rgb(2 125 69);
   --light: rgba(72, 234, 43, 0.836);
   --contrast-text: rgb(255, 252, 252);
+  --borderline: rgb(255, 255, 255);
 }
 
 html {
-  font-family: "Potta One", cursive;
+  /* main font */
+  font-family: "Roboto Flex", sans-serif;
   font-size: var(--font-size);
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 25px;
 }
 
 body {
   background: var(--bgdark);
+  color: var(--contrast-text);
 }
 
 .border {
