@@ -35,6 +35,7 @@ html {
 
 body {
   background: var(--bgdark);
+  color: var(--contrast-text);
 }
 
 .border {
