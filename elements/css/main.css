@@ -6,13 +6,19 @@ article {
   border: 1px solid white;
 }
 .main_holder {
-  padding: 40px;
+  padding: 0px;
   margin: 20px 15px;
   border-radius: 0px;
-  position: relative;
+  /* position: relative; */
 }
-
-.card {
+.question_holder {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.question {
+  text-align: ;
 }
 
 .bookmark_icon {
@@ -36,4 +42,13 @@ article {
   text-decoration: none;
   color: inherit;
   border: 1px solid var(--borderline);
+}
+.article_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kanji_horse {
+  width: 10rem;
+  margin-top: 10px;
 }
