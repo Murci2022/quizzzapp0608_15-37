@@ -23,3 +23,9 @@
   --light: rgba(72, 234, 43, 0.836);
   --contrast-text: rgb(255, 252, 252);
 }
+
+html {
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Potta One", cursive;
+  font-size: var(--font-size);
+}
